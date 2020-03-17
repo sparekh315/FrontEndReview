@@ -67,3 +67,36 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid red;
+}
+
+nav .navLinks {
+	display:flex;
+	justify-content: space-between;
+    width: 80%;
+	border: 1px solid orange
+}
+
+.navLinks a {
+	color: gray;
+	text-decoration: none;
+}
+
+nav .navImg {
+	border: 1px solid blue;
+}
+
+header {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+header .left-header {
+	display: flex;
+	flex-direction: column;
+}
+
