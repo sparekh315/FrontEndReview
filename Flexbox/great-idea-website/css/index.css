@@ -68,17 +68,19 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.main-container {
+	margin: 3% 5% 0 5%;
+}
+
 nav {
 	display: flex;
 	justify-content: space-between;
-	border: 1px solid red;
 }
 
 nav .navLinks {
 	display:flex;
 	justify-content: space-between;
     width: 80%;
-	border: 1px solid orange
 }
 
 .navLinks a {
@@ -86,20 +88,21 @@ nav .navLinks {
 	text-decoration: none;
 }
 
-nav .navImg {
-	border: 1px solid blue;
+.navImg {
+	margin-left: 10%;
 }
 
 header {
 	display: flex;
 	justify-content: space-between;
-	border: 1px solid green;
+	border-bottom: 1px solid black;
+	margin: 5% 0 3% 0;
+	padding-bottom: 5%;
 }
 
 header .left-header {
 	display: flex;
 	flex-direction: column;
-	border: 1px solid magenta;
 	width: 60%;
 	align-items: center;
 	justify-content: center;
@@ -120,19 +123,17 @@ header .left-header {
 }
 
 .top-content-container {
-	border: 1px solid cyan;
 	display: flex;
+	margin-bottom: 3%;
 	
 }
 
 .features {
-  border: 1px solid palevioletred;
   margin-right: 2%;
 
 }
 
 .about {
-   border: 1px solid thistle;
   margin-right: 1%;
 }
 
@@ -147,8 +148,10 @@ header .left-header {
 }
 
 .bottom-content-container {
-	border: 1px solid red;
+	border-bottom: 1px solid black;
 	display: flex;
+	margin-top: 3%;
+	padding-bottom: 5%;
 }	
 
 .services {
@@ -157,5 +160,17 @@ header .left-header {
 
 .product {
 	margin-right: 1%;
+}
+
+.contact-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 3%;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: center;
+	margin: 5% 0 10% 0;
 }
 
