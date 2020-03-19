@@ -92,11 +92,70 @@ nav .navImg {
 
 header {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
+	border: 1px solid green;
 }
 
 header .left-header {
 	display: flex;
 	flex-direction: column;
+	border: 1px solid magenta;
+	width: 60%;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.header-text  {
+	font-size: 80px;
+	text-align: center;
+}
+
+.header-button {
+	border-radius: 0%;
+	border: 2px solid black;
+	font-size: 20px;
+	padding: 0% 10%;
+	
+}
+
+.top-content-container {
+	border: 1px solid cyan;
+	display: flex;
+	
+}
+
+.features {
+  border: 1px solid palevioletred;
+  margin-right: 2%;
+
+}
+
+.about {
+   border: 1px solid thistle;
+  margin-right: 1%;
+}
+
+.mid-page-image {
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.bottom-content-container {
+	border: 1px solid red;
+	display: flex;
+}	
+
+.services {
+	margin-right: 2%;
+}
+
+.product {
+	margin-right: 1%;
 }
 
